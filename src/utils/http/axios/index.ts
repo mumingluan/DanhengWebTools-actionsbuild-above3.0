@@ -6,7 +6,7 @@ import { API_BASE_URL } from '../../../../config/constant'
 import { getToken, TokenPrefix } from '@/utils/auth'
 
 // 如果请求话费了超过 `timeout` 的时间，请求将被中断
-axios.defaults.timeout = 5000
+axios.defaults.timeout = 50000
 // 表示跨域请求时是否需要使用凭证
 axios.defaults.withCredentials = false
 // axios.defaults.headers.common['token'] =  AUTH_TOKEN
